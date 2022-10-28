@@ -1,6 +1,6 @@
 project('removegrain', 'cpp',
   version : '1',
-  default_options : ['warning_level=3'])
+  default_options : ['warning_level=3', 'buildtype=release', 'b_ndebug=if-release'])
 
 add_project_arguments('-ffast-math', language : 'cpp')
 
